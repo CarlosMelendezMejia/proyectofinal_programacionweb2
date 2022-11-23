@@ -1,0 +1,163 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:'Cafe';
+    src: url('fuentes/Louis George Cafe.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Cafe';
+}
+
+.text_title{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cafe';
+}
+
+.nav_a:hover {
+    text-decoration: none;
+    color: gold;
+    font-family: 'Cafe';
+}
+
+.all {
+    height:1000px;
+    background-color: lightgray;
+}
+
+.ul_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_link {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+header {
+    
+    height: 7%;
+    text-align: center;
+    padding: 10px;
+    background-color: #1A47A2;
+
+}
+
+#header_container{
+    height: 100%;
+    padding-top: 25px;
+}
+
+main {
+    height: 80%;
+    padding: 40px;
+}
+
+#main_wrap{
+    margin: 25px;
+}
+
+#main_content{
+    background-color: white;
+    height: 500px;
+    border-radius: 30px;
+    padding: 40px;
+    object-fit:contain;   
+}
+
+
+
+.main_subcontent{
+    background-color: white;
+    height: 15%;
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom:20px;
+    object-fit:contain;   
+}
+
+.ms_updiv{
+    display: flex;
+}
+
+.question{
+    padding-right:20px ;
+}
+
+.a_exec{
+    font-family: 'Cafe';
+}
+
+.a_exec:hover{
+    font-family: 'Cafe';
+    color:red;
+}
+
+#main_img_wrap{
+    height: 55%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#main_img{
+    height: 100%;
+    width: 30%;
+}
+
+#main_img img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+
+.main_title{
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main_div {
+    height:11%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#main_div_1, #main_div_3{
+    background-color: #93B4F5;
+}
+
+#main_div_2, #main_div_4{
+    background-color:#4F86F4;
+}
+
+.button_div{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#msc_ej3_1{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: #1A47A2;
+    height: 12%;
+    color: white;
+}
